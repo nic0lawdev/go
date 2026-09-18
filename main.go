@@ -1,6 +1,7 @@
 package main
 
 import (
+	"aprende-go/condicionales"
 	"aprende-go/matematicas"
 	"aprende-go/variables"
 	"fmt"
@@ -12,5 +13,6 @@ func main() {
 	fmt.Println(matematicas.Resta(5, 3))
 	fmt.Println(math.Sqrt(144))
 	variables.MostrarVariable("Nicolas Andres Cea Cerda")
+	condicionales.Condicionales(1, 2)
 
 }
