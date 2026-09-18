@@ -1,6 +1,7 @@
 package main
 
 import (
+	"aprende-go/bucles"
 	"aprende-go/condicionales"
 	"aprende-go/matematicas"
 	"aprende-go/variables"
@@ -14,5 +15,10 @@ func main() {
 	fmt.Println(math.Sqrt(144))
 	variables.MostrarVariable("Nicolas Andres Cea Cerda")
 	condicionales.Condicionales(1, 2)
-
+	bucles.Bucles()
+	logout := Logout()
+	fmt.Println(logout)
+}
+func Logout() string {
+	return "adios"
 }
